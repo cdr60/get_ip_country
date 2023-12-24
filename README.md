@@ -1,10 +1,10 @@
 # get_ip_country
-Get country from a file containing a lot of ipv4 address
+Get country from a file containing a lot of ipv4 address using python
 
-Dependancies :
+Dependencies :
 - Needs python3
 - Needs python3-geoip2 (apt install or dnf install)
-- Needs GeoLite2-Country.mmdb file from GeoLite2, put your path at line : geodbfile="/usr/share/GeoIP/GeoLite2-Country.mmdb" 
+- Needs GeoLite2-Country.mmdb file from GeoLite2 : put your path at line : geodbfile="/usr/share/GeoIP/GeoLite2-Country.mmdb" 
 
 Usage :
 python3 geticountry.py filein fileout
@@ -17,6 +17,3 @@ file in : 80.11.102.108
 fileout : 80.11.102.108:FR
 
 Speed : 1000 ip in about 10 secondes.
-
-
-
